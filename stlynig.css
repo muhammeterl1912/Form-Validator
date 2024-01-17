@@ -1,3 +1,9 @@
+:root {
+    --success-color: green;
+    --fail-color: red;
+}
+
+
 *{
     padding: 0;
     padding: 0;
@@ -50,3 +56,31 @@ h2{
     border-color:#777;
 }
 
+.ct-form.success input {
+    border-color: var(--success-color);
+}
+.ct-form.fail input {
+    border-color: var(--fail-color);
+}
+.ct-form small {
+    color: red;
+    position: absolute;
+    visibility: hidden;
+    
+}
+.ct-form.error small {
+    visibility: visible;
+}
+#form #button {
+    display: block;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 18px;
+    text-align: center;
+    width: 50%;
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.21);
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: #fff;
+}
