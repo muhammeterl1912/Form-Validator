@@ -14,7 +14,7 @@ It is a simple form validator made with vanilla JavaScript. It checks whether th
   
 ## Utilized Tecknologies
 
-**İstemci:** HTML, CSS, JS
+**Client:** HTML, CSS, JS
 
 
 
